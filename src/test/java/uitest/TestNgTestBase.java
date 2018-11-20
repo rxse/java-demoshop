@@ -35,7 +35,11 @@ public class TestNgTestBase {
         capabilities = (DesiredCapabilities)config.getCapabilities();
         if (config.hasProperty("grid.url") && !"".equals(config.getProperty("grid.url"))) {
             gridHubUrl = new URL(config.getProperty("grid.url"));
+        }
+        if (gridHubUrl != null && config.hasProperty("remote.platform") && !"".equals(config.getProperty("remote.platform"))) {
             capabilities.setCapability("platform", config.getProperty("remote.platform"));
+        }
+        if (gridHubUrl != null && config.hasProperty("remote.version") && !"".equals(config.getProperty("remote.version"))) {
             capabilities.setCapability("version", config.getProperty("remote.version"));
         }
         if (config.hasProperty("remote.capabilities")) {
