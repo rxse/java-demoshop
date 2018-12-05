@@ -48,9 +48,7 @@ public class TestNgTestBase {
 
             while (keys.hasNext()) {
                 String key = (String) keys.next();
-                if(!key.equals("browserName")) {
-                    capabilities.setCapability(key, o.get(key));
-                }
+                capabilities.setCapability(key, o.get(key));
             }
         }
         if (config.hasProperty("debug")) {
@@ -68,7 +66,7 @@ public class TestNgTestBase {
     }
 
     @AfterMethod
-    public void tearDowfnWebDriver() {
+    public void tearDownWebDriver() {
         if (!debugMode) {
             driver.quit();
         }

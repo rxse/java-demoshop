@@ -106,6 +106,12 @@
             </properties>
         </profile>
         <profile>
+            <id>microsoftedge</id>
+            <properties>
+                <capabilities>/edge.capabilities</capabilities>
+            </properties>
+        </profile>
+        <profile>
             <id>safari</id>
             <properties>
                 <capabilities>/safari.capabilities</capabilities>
@@ -115,6 +121,12 @@
             <id>opera</id>
             <properties>
                 <capabilities>/opera.capabilities</capabilities>
+            </properties>
+        </profile>
+        <profile>
+            <id>custom</id>
+            <properties>
+                <capabilities>/custom.capabilities</capabilities>
             </properties>
         </profile>
         <!-- environments -->
@@ -159,6 +171,9 @@
         <profile>
             <id>grid</id>
             <properties>
+                <remoteplatform></remoteplatform>
+                <remoteversion></remoteversion>
+                <remotecapabilities>{}</remotecapabilities>
                 <grid.url>${grid.url}</grid.url>
                 <remote.platform key="remote-platform">${remoteplatform}</remote.platform>
                 <remote.version key="remote-version">${remoteversion}</remote.version>
