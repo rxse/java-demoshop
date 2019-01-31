@@ -4,12 +4,15 @@ package uitest.tests;
 
 import uitest.TestNgTestBase;
 import uitest.pageobjects.*;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 class TC1 extends TestNgTestBase {
     @Test
     public void checkForTotalAmountUsing3Items() {
+        WebDriver driver = getDriver();
         // No setup code needed - {@link TestNgTestBase} creates the driver instance
 
         // Open the page
@@ -33,6 +36,7 @@ class TC1 extends TestNgTestBase {
 
     @Test
     public void checkForTotalAmountUsing1Item() {
+        WebDriver driver = getDriver();
         // No setup code needed - {@link TestNgTestBase} creates the driver instance
 
         // Open the page
