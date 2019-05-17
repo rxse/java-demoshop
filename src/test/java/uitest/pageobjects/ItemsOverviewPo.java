@@ -13,13 +13,13 @@ public class ItemsOverviewPo {
     // Generated elements
     // Additional data:
     // {"img":"screenshots/49616360-3826-2ab3-cffd-ded10189911e.png"}
-    private By item1AddToCartButton = By.cssSelector("[data-product_id='8']");
+    private By item1AddToCartButton = By.cssSelector(".button[data-product_id='8']");
     // Additional data:
     // {"img":"screenshots/c3947c2a-8045-41c4-89b3-a9851fd55008.png"}
-    private By item2AddToCartButton = By.cssSelector("[data-product_id='9']");
+    private By item2AddToCartButton = By.cssSelector(".button[data-product_id='9']");
     // Additional data:
     // {"img":"screenshots/4129d204-46bb-44ec-de52-c7ca6c9eff3f.png"}
-    private By item3AddToCartButton = By.cssSelector("[data-product_id='10']");
+    private By item3AddToCartButton = By.cssSelector(".button[data-product_id='10']");
     // Additional data:
     // {"img":"screenshots/b3b57cd4-96ab-7eeb-9817-4eddb3ecdda6.png"}
     private By item1ViewCartButton = By.cssSelector(
