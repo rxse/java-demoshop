@@ -1,6 +1,6 @@
 # Ranorex Webtestit Java Demoshop
 
-This is an example of how testing a simple webshop could be solved with [Ranorex Webtestit](https://www.ranorex.com/webtestit/beta/) and Java.
+This is an example of how testing a [simple webshop](http://demoshop.webtestit.com/) could be solved with [Ranorex Webtestit](https://www.ranorex.com/webtestit/beta/) and Java.
 
 ## Ranorex Webtestit
 
